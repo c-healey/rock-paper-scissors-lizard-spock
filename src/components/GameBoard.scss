@@ -38,6 +38,9 @@
   }
 
   border-color: $lizard;
+  box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 1px $lizard-shadow;
+  
+ 
 }
 .rock {
   &-position {
@@ -46,6 +49,7 @@
   }
 
   border-color: $rock;
+  box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 1px $rock-shadow;
 }
 .spock {
   &-position {
@@ -53,6 +57,7 @@
     left: 0.5rem;
   }
   border-color: $spock;
+  box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 1px $spock-shadow;
 }
 .paper {
   &-position {
@@ -60,6 +65,7 @@
     right: 0.5rem;
   }
   border-color: $paper;
+  box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 1px $paper-shadow;
 }
 .scissors {
   &-position {
@@ -71,4 +77,7 @@
     }
   }
   border-color: $scissors;
+ 
+  box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 1px $scissors-shadow;
+
 }

@@ -19,12 +19,18 @@ $rock-gradient: linear-gradient(hsl(0, 2%, 10%) , hsl(349, 70%, 56%));
 $lizard-gradient: linear-gradient(hsl(261, 73%, 60%) , hsl(261, 72%, 63%));
 $cyan-gradient: linear-gradient(hsl(189, 59%, 53%) , hsl(189, 58%, 57%));
 
-$scissors: hsl(39, 89%, 49%);
+$scissors: hsl(40, 84%, 53%);
 $paper: hsl(230, 89%, 62%);
 $rock: hsl(349, 71%, 52%);
 $lizard: hsl(261, 73%, 60%);
 $spock: hsl(189, 59%, 53%);
 
+
+$scissors-shadow: hsl(39, 79%, 29%);
+$paper-shadow: hsl(230, 79%, 42%);
+$rock-shadow: hsl(349, 61%, 22%);
+$lizard-shadow: hsl(261, 62%, 20%);
+$spock-shadow: hsl(189, 49%, 33%);
 // ### Neutral
 
 $dark-text: hsl(229, 25%, 31%);

@@ -18,7 +18,7 @@
   }
   &-pick:hover {
     filter: brightness(120%) saturate(150%);
-    box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 5px hsl(237, 49%, 15%);
+  
   }
   &-pick:not(.scissors):hover {
     transform: scale(1.1);
