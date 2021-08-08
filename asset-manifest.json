@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rock-paper-scissors-lizard-spock/static/css/main.55f74241.chunk.css",
-    "main.js": "/rock-paper-scissors-lizard-spock/static/js/main.53508b48.chunk.js",
-    "main.js.map": "/rock-paper-scissors-lizard-spock/static/js/main.53508b48.chunk.js.map",
+    "main.js": "/rock-paper-scissors-lizard-spock/static/js/main.323d85c4.chunk.js",
+    "main.js.map": "/rock-paper-scissors-lizard-spock/static/js/main.323d85c4.chunk.js.map",
     "runtime-main.js": "/rock-paper-scissors-lizard-spock/static/js/runtime-main.06b5fc8e.js",
     "runtime-main.js.map": "/rock-paper-scissors-lizard-spock/static/js/runtime-main.06b5fc8e.js.map",
     "static/css/2.818011ed.chunk.css": "/rock-paper-scissors-lizard-spock/static/css/2.818011ed.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.b3c3178b.chunk.js",
     "static/css/main.55f74241.chunk.css",
-    "static/js/main.53508b48.chunk.js"
+    "static/js/main.323d85c4.chunk.js"
   ]
 }
