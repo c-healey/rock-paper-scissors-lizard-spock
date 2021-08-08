@@ -1,0 +1,104 @@
+@import "../variables.scss";
+.game {
+  &-result {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem ;
+
+    &-winlose {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+    &-play {
+      font-size: 1.5rem;
+      background-color: white;
+
+      border-radius: 0.5rem;
+      color: $dark-text;
+      padding: 0.5rem 3rem;
+      transition: all 0.2s ease-in-out;
+    }
+    &-CTA {
+      @media (min-width: 992px) {
+        position: absolute !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    &-pick,
+    &-CTA {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+    }
+
+    &-you-picked:after,
+    &-house-picked:after {
+      content: "";
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.5rem;
+      // transition: all ease-in-out 3s;
+      @media (min-width: 576px) {
+        font-size: 1.3rem;
+      }
+      @media (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+    &-you-picked:after {
+      content: "you picked";
+    }
+    &-player {
+      @media (min-width: 992px) {
+        display: flex;
+      }
+    }
+    &-house {
+      @media (min-width: 992px) {
+        display: flex;
+        justify-content: flex-end;
+      }
+      &-picked:after {
+        content: "house picked";
+      }
+    }
+
+    &-pick-winner,
+    &-pick-looser {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: visible;
+      border-radius: 100%;
+      width: 260px;
+      height: 260px;
+      @media (min-width: 576px) {
+        width: 242px;
+        height: 242px;
+      }
+      @media (min-width: 768px) {
+        width: 332px;
+        height: 332px;
+      }
+      @media (min-width: 992px) {
+        width: 370px;
+        height: 370px;
+      }
+    }
+    &-pick-winner {
+      background-image: repeating-radial-gradient(
+        closest-side ellipse at 50% 50%,
+        hsl(214, 47%, 23%) 0px 0.5rem,
+        hsl(237, 49%, 15%) 3rem
+      );
+    }
+  }
+}

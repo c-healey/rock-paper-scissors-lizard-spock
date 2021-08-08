@@ -1,0 +1,74 @@
+@import "../variables.scss";
+.game {
+  
+
+  &-picks {
+    position: relative;
+
+    width: 25rem;
+    // height: 25rem;
+    min-height: 23rem;
+    transform: scale(60%);
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 2rem ;
+    @media (min-width: 440px) {
+      transform: scale(100%);
+      min-height: 26rem;
+    }
+    &:before {
+      content: "";
+      background-image: url("../imgs/bg-pentagon.svg");
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      height: 20rem;
+      width: 21rem;
+      background-repeat: no-repeat;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  
+}
+.lizard {
+  &-position {
+    bottom: 0;
+    left: 40px;
+  }
+
+  border-color: $lizard;
+}
+.rock {
+  &-position {
+    bottom: 0;
+    right: 40px;
+  }
+
+  border-color: $rock;
+}
+.spock {
+  &-position {
+    top: 6rem;
+    left: 0.5rem;
+  }
+  border-color: $spock;
+}
+.paper {
+  &-position {
+    top: 6rem;
+    right: 0.5rem;
+  }
+  border-color: $paper;
+}
+.scissors {
+  &-position {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    &:hover {
+      transform: scale(1.1) translateX(-50%);
+    }
+  }
+  border-color: $scissors;
+}

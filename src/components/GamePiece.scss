@@ -1,0 +1,30 @@
+@import "../variables.scss";
+.game {
+  &-pick,
+  &-piece {
+    position: absolute;
+    background-color: white;
+    border: 1rem solid $paper;
+    border-radius: 100%;
+    box-shadow: inset 1px 8px 5px #606e8570;
+
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    transition: all ease-in 0.5s;
+  }
+  &-pick:hover {
+    filter: brightness(120%) saturate(150%);
+    box-shadow: inset 1px 8px 5px #606e8570, 1px 8px 5px hsl(237, 49%, 15%);
+  }
+  &-pick:not(.scissors):hover {
+    transform: scale(1.1);
+  }
+
+  &-piece {
+    position: relative;
+  }
+}
