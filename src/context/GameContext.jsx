@@ -10,7 +10,7 @@ export const GameProvider = (props) => {
   const [house, setHouse] = useState("");
   const [winner, setWinner] = useState("");
   const [gameState, setGameState] = useState(SHOW_GAME); // versus showScore
-  const [showRules, setShowRules] = useState(true);
+  const [showRules, setShowRules] = useState(false);
 
   return (
     <GameContext.Provider

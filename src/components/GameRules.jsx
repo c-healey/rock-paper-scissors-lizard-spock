@@ -15,7 +15,7 @@ const GameRules = () => {
 
       <main>
         <img
-          src="../images/image-rules-bonus.svg"
+          src="./images/image-rules-bonus.svg"
           alt="rock paper scissors lizard spock rules"
         />
       </main>
@@ -23,7 +23,7 @@ const GameRules = () => {
         className="game-rules-close"
         onClick={() => setShowRules(false)}
       >
-        <img src="../images/icon-close.svg" alt="rules close button" />
+        <img src="./images/icon-close.svg" alt="rules close button" />
       </footer>
     </div>
 
